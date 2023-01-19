@@ -1,0 +1,13 @@
+POST http://localhost:5000/api/notes
+Content-Type: application/json
+
+{
+    "name" : "Sexta nota"
+}
+### Para responder con error
+POST http://localhost:5000/api/notes
+Content-Type: application/json
+
+{
+
+}

@@ -1,0 +1,8 @@
+<h2>Listado de habilidades de pokemon </h2>
+{{#if data}}
+  <ul>
+    {{#each abilities}}
+      <li>{{this.name}}({{this.url}})</li>
+    {{/each}}
+  </ul>
+{{/if}}
